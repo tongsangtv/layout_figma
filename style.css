@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url(/font/Be_Vietnam_Pro/BeVietnamPro-Bold.ttf);
+}
 p {
   margin: 0;
-  font-weight: bold;
   font-size: 20px;
+  font-family: Be Vietnam Pro;
+  font-weight: bold;
 }
 header {
   display: flex;
