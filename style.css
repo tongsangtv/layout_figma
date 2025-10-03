@@ -46,7 +46,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
   margin-bottom: 80px;
 }
 .content {
@@ -133,7 +133,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 40px;
+  gap: 35px;
   margin-bottom: 40px;
 }
 .main2 .item {
@@ -171,7 +171,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 40px;
+  gap: 36.667px;
   margin-bottom: 40px;
 }
 .main3 .item {
