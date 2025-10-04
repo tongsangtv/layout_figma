@@ -54,10 +54,14 @@ nav {
   height: 680px;
   background-color: #f1f1f1;
   display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 0;
 }
 nav .box {
   width: 100%;
-  padding: 25px auto;
   margin: 0 auto;
   display: flex;
   align-items: center;
