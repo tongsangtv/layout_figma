@@ -8,13 +8,20 @@ p {
   font-family: Be Vietnam Pro;
   font-weight: bold;
 }
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
 header {
   display: flex;
-  width: 100%;
   height: 120px;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  padding: 25px 0;
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
 }
 .logo {
   background-color: #e2e2e2;
@@ -49,10 +56,15 @@ nav {
   height: 685px;
   background-color: #f1f1f1;
   display: flex;
+}
+nav .box {
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  margin-bottom: 80px;
 }
 .content {
   display: flex;
@@ -74,10 +86,10 @@ nav {
 }
 .main1 {
   width: 100%;
-  height: 1050px;
+  height: 980px;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  padding: 80px 0;
 }
 .main1 .title {
   width: 600px;
@@ -87,11 +99,9 @@ nav {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin: auto;
-  margin-bottom: 50px;
+  margin: 0 auto 45px auto;
 }
 .main1 .box {
-  width: 100%;
   height: 420px;
   border-radius: 8px;
   display: flex;
@@ -99,7 +109,9 @@ nav {
   justify-content: center;
   flex-wrap: nowrap;
   gap: 40px;
-  margin-bottom: 40px;
+  margin: 0 auto 30px auto;
+  width: 95%;
+  max-width: 1220px;
 }
 .main1 .item {
   width: 380px;
@@ -112,12 +124,11 @@ nav {
 }
 .main2 {
   width: 100%;
-  height: 580px;
+  height: 500px;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
   background-color: #f1f1f1;
-  padding-top: 40px;
+  padding: 80px 0 0;
 }
 .main2 .title {
   width: 600px;
@@ -127,11 +138,9 @@ nav {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin: auto;
-  margin-top: 50px;
+  margin: 0px auto 0 auto;
 }
 .main2 .box {
-  width: 100%;
   height: 420px;
   border-radius: 8px;
   display: flex;
@@ -139,7 +148,10 @@ nav {
   justify-content: center;
   flex-wrap: nowrap;
   gap: 35px;
-  margin-bottom: 40px;
+  margin: 0 auto 0 auto;
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
 }
 .main2 .item {
   width: 216px;
@@ -152,10 +164,10 @@ nav {
 }
 .main3 {
   width: 100%;
-  height: 480px;
+  height: 400px;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  padding: 80px 0;
 }
 .main3 .title {
   width: 600px;
@@ -165,11 +177,9 @@ nav {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin: auto;
-  margin-bottom: 50px;
+  margin: 0 auto 40px auto;
 }
 .main3 .box {
-  width: 100%;
   height: 300px;
   border-radius: 8px;
   display: flex;
@@ -177,7 +187,9 @@ nav {
   justify-content: center;
   flex-wrap: nowrap;
   gap: 36.667px;
-  margin-bottom: 40px;
+  margin: 0 auto 0 auto;
+  width: 95%;
+  max-width: 1220px;
 }
 .main3 .item {
   width: 277.5px;
@@ -195,5 +207,4 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
 }
